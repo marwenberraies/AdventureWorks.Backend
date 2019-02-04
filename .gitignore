@@ -14,3 +14,10 @@ TemporaryGeneratedFile_*.cs
 *.user
 *.dll
 *.xml
+*.pdb
+*._
+*.p7s
+*.ps1
+*.psd1
+*.psm1
+*.exe
