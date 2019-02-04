@@ -7,7 +7,11 @@
 /*/.vs
 /*/.vs/*
 /*/obj
+/*/obj/*
+*/obj/*
 /*/bin
+/*/bin/*
+*/bin/*
 TemporaryGeneratedFile_*.cs
 *.cache
 *.suo
@@ -22,3 +26,5 @@ TemporaryGeneratedFile_*.cs
 *.psm1
 *.exe
 *.force
+*.CopyComplete
+*.FileListAbsolute.*
