@@ -28,3 +28,5 @@ TemporaryGeneratedFile_*.cs
 *.force
 *.CopyComplete
 *.FileListAbsolute.*
+*.exe.config
+*.dll.config
