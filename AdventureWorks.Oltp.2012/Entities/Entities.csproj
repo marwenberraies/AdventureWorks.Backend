@@ -60,7 +60,292 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
     </Compile>
+    <Compile Include="AwBuildVersion.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseLog.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorLog.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResources_Department.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResources_Employee.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResources_EmployeeDepartmentHistory.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResources_EmployeePayHistory.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResources_JobCandidate.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResources_Shift.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResources_VEmployee.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResources_VEmployeeDepartment.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResources_VEmployeeDepartmentHistory.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResources_VJobCandidate.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResources_VJobCandidateEducation.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResources_VJobCandidateEmployment.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_Address.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_AddressType.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_BusinessEntity.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_BusinessEntityAddress.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_BusinessEntityContact.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_ContactType.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_CountryRegion.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_EmailAddress.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_Password.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_Person.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_PersonPhone.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_PhoneNumberType.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_StateProvince.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_VAdditionalContactInfo.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_VStateProvinceCountryRegion.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_BillOfMaterial.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_Culture.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_Document.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_Illustration.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_Location.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_Product.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_ProductCategory.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_ProductCostHistory.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_ProductDescription.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_ProductDocument.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_ProductInventory.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_ProductListPriceHistory.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_ProductModel.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_ProductModelIllustration.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_ProductModelProductDescriptionCulture.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_ProductPhoto.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_ProductProductPhoto.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_ProductReview.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_ProductSubcategory.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_ScrapReason.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_TransactionHistory.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_TransactionHistoryArchive.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_UnitMeasure.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_VProductAndDescription.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_VProductModelCatalogDescription.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_VProductModelInstruction.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_WorkOrder.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Production_WorkOrderRouting.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purchasing_ProductVendor.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Purchasing_PurchaseOrderDetail.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Purchasing_PurchaseOrderHeader.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Purchasing_ShipMethod.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Purchasing_Vendor.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Purchasing_VVendorWithAddress.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Purchasing_VVendorWithContact.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_CountryRegionCurrency.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_CreditCard.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_Currency.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_CurrencyRate.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_Customer.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_PersonCreditCard.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_SalesOrderDetail.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_SalesOrderHeader.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_SalesOrderHeaderSalesReason.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_SalesPerson.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_SalesPersonQuotaHistory.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_SalesReason.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_SalesTaxRate.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_SalesTerritory.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_SalesTerritoryHistory.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_ShoppingCartItem.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_SpecialOffer.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_SpecialOfferProduct.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_Store.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_VIndividualCustomer.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_VPersonDemographic.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_VSalesPerson.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_VSalesPersonSalesByFiscalYear.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_VStoreWithAddress.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_VStoreWithContact.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_VStoreWithDemographic.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UspGetBillOfMaterialsReturnModel.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UspGetEmployeeManagersReturnModel.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UspGetManagerEmployeesReturnModel.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UspGetWhereUsedProductIdReturnModel.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

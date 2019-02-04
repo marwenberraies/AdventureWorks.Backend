@@ -60,6 +60,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
     </Compile>
+    <Compile Include="IAdventureWorksOltpDatabase2012DbContext.cs">
+      <DependentUpon>AdventureWorksOltpDatabase2012.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -76,6 +79,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{b2c1e744-b404-4e5d-b786-e00252f75e25}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
