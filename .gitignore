@@ -21,3 +21,4 @@ TemporaryGeneratedFile_*.cs
 *.psd1
 *.psm1
 *.exe
+*.force
