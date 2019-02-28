@@ -11,21 +11,22 @@
 // TargetFrameworkVersion = 4.5
 #pragma warning disable 1591    //  Ignore "Missing XML Comment" warning
 
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Contexts
 {
+    using Configurations;
+    using Entities;
+    using Interfaces;
+    using System;
+    using System.CodeDom.Compiler;
+    using System.Collections.Generic;
 
-    [System.CodeDom.Compiler.GeneratedCode("EF.Reverse.POCO.Generator", "2.37.2.0")]
-    public class UfnGetContactInformationReturnModel
+    public class AdventureWorksOltpDatabase2012DbContextFactory : System.Data.Entity.Infrastructure.IDbContextFactory<AdventureWorksOltpDatabase2012DbContext>
     {
-        public System.Int32 PersonID { get; set; }
-        public System.String FirstName { get; set; }
-        public System.String LastName { get; set; }
-        public System.String JobTitle { get; set; }
-        public System.String BusinessEntityType { get; set; }
+        public AdventureWorksOltpDatabase2012DbContext Create()
+        {
+            return new AdventureWorksOltpDatabase2012DbContext();
+        }
     }
-
 }
 // </auto-generated>
